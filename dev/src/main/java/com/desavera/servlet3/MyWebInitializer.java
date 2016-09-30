@@ -1,8 +1,8 @@
-package com.mkyong.servlet3;
+package com.desavera.servlet3;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import com.mkyong.config.SpringWebConfig;
+import com.desavera.config.SpringWebConfig;
 
 public class MyWebInitializer extends
 		AbstractAnnotationConfigDispatcherServletInitializer {

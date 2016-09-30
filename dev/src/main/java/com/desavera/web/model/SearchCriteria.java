@@ -1,4 +1,4 @@
-package com.mkyong.web.model;
+package com.desavera.web.model;
 
 public class SearchCriteria {
 

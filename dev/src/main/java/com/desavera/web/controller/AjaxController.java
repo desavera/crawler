@@ -1,4 +1,4 @@
-package com.mkyong.web.controller;
+package com.desavera.web.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.annotation.JsonView;
-import com.mkyong.web.jsonview.Views;
-import com.mkyong.web.model.AjaxResponseBody;
-import com.mkyong.web.model.SearchCriteria;
-import com.mkyong.web.model.User;
+import com.desavera.web.jsonview.Views;
+import com.desavera.web.model.AjaxResponseBody;
+import com.desavera.web.model.SearchCriteria;
+import com.desavera.web.model.User;
 
 @RestController
 public class AjaxController {
@@ -72,9 +72,9 @@ public class AjaxController {
 	private void iniDataForTesting() {
 		users = new ArrayList<User>();
 
-		User user1 = new User("mkyong", "pass123", "mkyong@yahoo.com", "012-1234567", "address 123");
+		User user1 = new User("desavera", "pass123", "desavera@yahoo.com", "012-1234567", "address 123");
 		User user2 = new User("yflow", "pass456", "yflow@yahoo.com", "016-7654321", "address 456");
-		User user3 = new User("laplap", "pass789", "mkyong@yahoo.com", "012-111111", "address 789");
+		User user3 = new User("laplap", "pass789", "desavera@yahoo.com", "012-111111", "address 789");
 		users.add(user1);
 		users.add(user2);
 		users.add(user3);
