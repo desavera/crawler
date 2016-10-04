@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class WelcomeController {
 
-	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String printWelcome(ModelMap model) {
+	@RequestMapping(value = "/eval", method = RequestMethod.GET)
+	public String eval(ModelMap model) {
 		return "welcome";
 	}
 
