@@ -1,9 +1,0 @@
-com/desavera/web/jsonview/Views.class
-com/desavera/web/controller/WelcomeController.class
-com/desavera/web/jsonview/Views$Public.class
-com/desavera/web/controller/AjaxController.class
-com/desavera/config/SpringWebConfig.class
-com/desavera/web/model/User.class
-com/desavera/web/model/SearchCriteria.class
-com/desavera/web/model/AjaxResponseBody.class
-com/desavera/servlet3/MyWebInitializer.class
