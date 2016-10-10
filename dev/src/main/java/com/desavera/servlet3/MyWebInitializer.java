@@ -2,14 +2,14 @@ package com.desavera.servlet3;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import com.desavera.config.SpringWebConfig;
+import com.desavera.config.CrawlerConfig;
 
 public class MyWebInitializer extends
 		AbstractAnnotationConfigDispatcherServletInitializer {
 
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
-		return new Class[] { SpringWebConfig.class };
+		return new Class[] { CrawlerConfig.class };
 	}
 
 	@Override
